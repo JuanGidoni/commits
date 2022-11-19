@@ -10,13 +10,13 @@
   if (fs.existsSync(&#x60;.&#x2F;days.md&#x60;)) {
     initCounter &#x3D; fs.readFileSync(&quot;.&#x2F;days.md&quot;).toString();
     initCounter &#x3D; Number(initCounter);
-    return ++initCounter;
+    initCounter &#x3D; ++initCounter;
   } else {
     fs.writeFileSync(&quot;.&#x2F;days.md&quot;, &quot;0&quot;);
     initCounter &#x3D; fs.readFileSync(&quot;.&#x2F;days.md&quot;).toString();
     initCounter &#x3D; Number(initCounter);
-    return initCounter;
   }
+  return initCounter;
 }
 
 #### 🎓 What I learn and use daily?
