@@ -4,7 +4,7 @@
   
   #### 🚀 Days being a developer: 
   
-  > 2023
+  > 2024
   
   #### 🎓 What I learn and use daily?
   
