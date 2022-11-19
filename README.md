@@ -4,7 +4,7 @@
   
   #### 🚀 Days being a developer: 
   
-  > 3006
+  > 3007
   
   #### 🎓 What I learn and use daily?
   
