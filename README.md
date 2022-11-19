@@ -4,7 +4,20 @@
 
 #### 🚀 Days being a developer: 
 
-> 2
+> () &#x3D;&gt; {
+  let initCounter;
+
+  if (fs.existsSync(&#x60;.&#x2F;days.md&#x60;)) {
+    initCounter &#x3D; fs.readFileSync(&quot;.&#x2F;days.md&quot;).toString();
+    initCounter &#x3D; Number(initCounter);
+    return ++initCounter;
+  } else {
+    fs.writeFileSync(&quot;.&#x2F;days.md&quot;, &quot;0&quot;);
+    initCounter &#x3D; fs.readFileSync(&quot;.&#x2F;days.md&quot;).toString();
+    initCounter &#x3D; Number(initCounter);
+    return initCounter;
+  }
+}
 
 #### 🎓 What I learn and use daily?
 
